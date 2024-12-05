@@ -8,4 +8,4 @@ while true; do
 done
 EOF
 
-ENTRYPOINT /app/run.sh
+ENTRYPOINT ["/app/run.sh"]
